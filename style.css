@@ -33,10 +33,11 @@
   }
 
 
-  /* nicher ei 2ta commad deyar pore alignmenr bhenge zacche */
+  /* nicher ei 2ta commad deyar pore alignmenr bhenge zacche but "margin: 0 auto " deyar por hoiche */
   .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto ;
   }
 
   .section-heading h2{
@@ -162,5 +163,50 @@ padding: 131px 156px  ;
 
 .about-info .infp-card h4{
   font-size: 20px;
+
+}
+
+
+#skills{
+  padding-top: 130px;
+  text-align: center;
+}
+
+#skills .skills-container{
+width: 76%;
+max-width: 1920px;
+margin: 0px auto ;
+}
+
+#skills .skills-container .skill-box{
+  display: flex;
   
+  gap: 24px;
+}
+
+.skill-box .skill-card{
+   padding: 30px;
+   /* border: 1px solid #ad2a2a    ; */
+   box-shadow: 0 6px 50px 0 #00000010;
+   max-width: 267px;
+   /* border-radius: 10px; */
+   /* margin-top: 20px; */
+
+}
+
+.skill-card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+
+}
+.skill-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-card p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+
 }
