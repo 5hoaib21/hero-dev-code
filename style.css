@@ -11,11 +11,6 @@
   font-optical-sizing: auto;
   }
 
-
-
-
-
-
   .logo h2{
     font-size: 48px;
     font-weight: 900;
@@ -35,6 +30,25 @@
     color: white;
     cursor: pointer;
 
+  }
+
+
+  /* nicher ei 2ta commad deyar pore alignmenr bhenge zacche */
+  .section-heading{
+    max-width: 827px;
+    text-align: center;
+  }
+
+  .section-heading h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+
+  }
+  .section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
   }
 
 
@@ -114,4 +128,39 @@ align-items: center;
   max-width: 585px;
   vertical-align: middle;
 
+}
+
+
+
+#about{
+  padding-top: 130px;
+  text-align: center;
+
+}
+
+#about .about-container{
+ width: 76%;
+max-width: 1920px ;
+margin: 0px auto ;
+text-align: center;
+background-color: #FFF8F3;
+padding: 131px 156px  ;
+}
+
+
+#about .about-container .about-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info .infp-card p{
+   font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.about-info .infp-card h4{
+  font-size: 20px;
+  
 }
